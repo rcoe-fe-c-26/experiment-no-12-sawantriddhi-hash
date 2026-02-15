@@ -1,8 +1,8 @@
 # AIM: Develop a Python program that reads a text file and 
 # prints words of specified lengths (e.g., three, four, 
 # five, etc.) found within the file.
-# Coder:
-# Date:
+# Coder:Riddhi
+# Date:11/02/2026
 
 print("--- Extracting Words from Text File ---\n")
 length = int(input("Enter Length of Words: "))
@@ -22,6 +22,7 @@ for word in words:
 sorted_words = sorted(result)
 
 print(f"Following Unique words of length {length} present: {sorted_words}")
+
 
 
 
